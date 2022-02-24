@@ -22,7 +22,7 @@ var config = {
             '(he had previously worked as military police in South Korea) and he was assigned to the Ninth Military ' +
             'Police Company of the Ninth Infantry division.', 
             location: {
-                center: [108.44423, 13.31565],
+                center: [108.33127, 14.28268],
                 zoom: 6.17,
                 pitch: 0,
                 bearing: 0
