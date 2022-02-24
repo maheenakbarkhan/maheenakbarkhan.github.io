@@ -22,10 +22,10 @@ var config = {
             '(he had previously worked as military police in South Korea) and he was assigned to the Ninth Military ' +
             'Police Company of the Ninth Infantry division.', 
             location: {
-                center: [-87.59059, 41.78385],
-                zoom: 17.40,
-                pitch: 54,
-                bearing: 1.60
+                center: [108.44423, 13.31565],
+                zoom: 6.17,
+                pitch: 0,
+                bearing: 0
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
@@ -54,10 +54,10 @@ var config = {
             'to become Commander of Area 2. At least seventeen of his associates were also veterans of the U.S. ' +
             'military, most from the Vietnam War.',
             location: {
-                center: [-73.95449, 40.82166],
-                zoom: 17.4,
-                pitch: 54,
-                bearing: 1.60
+                center: [-87.62836, 41.87435],
+                zoom: 10.83,
+                pitch: 0,
+                bearing: 0
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
@@ -180,9 +180,35 @@ var config = {
             'Johnson in 1995, whom he handcuffed to a wall for over 24 hours and threatened her family.',
             location: {
                 center: [-87.74632, 41.92242],
-                zoom: 20,
+                zoom: 18,
                 pitch: 54,
                 bearing: 1.60
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'gulf-war-1990',
+            alignment: 'right',
+            hidden: false,
+            title: 'Gulf War (1990 - 1991)',
+            image: '',
+            description: 'Like Zuley, younger officers named in torture cases have drifted in and ' +
+            'out of security work—like Kenneth Boudreau, who is named in Burge-affiliated and Zuley-affiliated ' +
+            'cases—training and consulting in private military-esque firms in their retirement. These officers ' +
+            'have not admitted culpability, decades later. Boudreau, for example, is named in at least 46 ' +
+            'torture claims, thirteen of them alongside now-deceased Michael Kill (between the two of them, ' +
+            '72 people have accused them of using torture; 20 of whom have been exonerated). Boudreau took a ' +
+            'leave from the CPD, to serve in the Gulf War from September 1990-July 1991. He worked as a Protective ' +
+            'Service Officer and Aide to Camp for the Commanding General of Engineer Forces.',
+            location: {
+                center: [47.72742, 29.91365],
+                zoom: 5.88,
+                pitch: 0,
+                bearing: 0
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
