@@ -14,7 +14,7 @@ var config = {
             id: 'vietnam',
             alignment: 'left',
             hidden: false,
-            title: 'Vietnam (1955-1975)',
+            title: 'Vietnam (1955 - 1975)',
             image: '',
             description: 'Jon Burge and a generation of police officers enlist in the US Military for the Vietnam War. ' + 
             'In 1968, Jon Burge volunteered for duty in the Vietnam War, where he provided security for convoys and basecamps ' + 
@@ -144,7 +144,7 @@ var config = {
             id: 'area3-1988-1991',
             alignment: 'right',
             hidden: false,
-            title: 'Area 3 Police Station (1988-1991)',
+            title: 'Area 3 Police Station (1988 - 1991)',
             image: '',
             description: 'Burge moved to Area 3 in 1988. One of Burge’s contemporaries, Richard Zuley, ' +
             'also joined the Chicago Police in 1970. Zuley,  who is most infamous for his direct link ' +
@@ -154,6 +154,33 @@ var config = {
             location: {
                 center: [-87.69508, 41.82261],
                 zoom: 17.4,
+                pitch: 54,
+                bearing: 1.60
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'area3-1992',
+            alignment: 'left',
+            hidden: false,
+            title: 'Area 3 Police Station (1992 - )',
+            image: '',
+            description: 'When he returned to Chicago, both Burge and Zuley briefly overlapped on the ' +
+            'North Side: Burge in Unit 630, Area 3 (within what is now called Detective Area North), and ' +
+            'Zuley in Unit 606, Central Investigations.  Burge was fired in 1993, after the Chicago ' +
+            'Police Board found that he had abused Andrew Wilson. Although it is not in official records that ' +
+            'they ever worked together, Zuley and Burge shared mutual colleagues. Zuley was seen as an ' +
+            'expert in his 25-year career as a detective, investigating high profile crimes like the murder ' +
+            'of 7-year old Dantrell Davis. Over that same career, he tortured at least five people in ' +
+            'Chicago. At Area 3, he tortured Lee Harris in 1989, who was once Zuley’s close informant, and Benita ' +
+            'Johnson in 1995, whom he handcuffed to a wall for over 24 hours and threatened her family.',
+            location: {
+                center: [-87.74632, 41.92242],
+                zoom: 20,
                 pitch: 54,
                 bearing: 1.60
             },
