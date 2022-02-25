@@ -216,6 +216,76 @@ var config = {
             onChapterEnter: [],
             onChapterExit: []
         },
-        
+        {
+            id: 'area3again',
+            alignment: 'left',
+            hidden: false,
+            title: 'Area 3 Police Station',
+            image: '',
+            description: 'As recently as August 2021, one of Boudreau and Kill’s youngest victims ' + 
+            'of torture and coerced confession, Johnny Plummer, has won an appeal of his murder case ' +
+            'to the Illinois Appellate Court, after 30 years in prison.<br/><br/>Plummer testified ' +
+            'that in 1991, when he was 15, Boudreau and Kill tortured him into confession at Area 3 ' +
+            'police headquarters by hitting him with a flashlight, punching him in the face, ' +
+            'handcuffing him to a radiator and ring on the wall, and interrogating him for 39 hours.',
+            location: {
+                center: [-87.74632, 41.92242],
+                zoom: 18,
+                pitch: 60,
+                bearing: 32.0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'guantanamo-2002-2004',
+            alignment: 'right',
+            hidden: false,
+            title: 'Guantánamo Bay (2002 - 2004)',
+            image: '',
+            description: 'Richard Zuley’s recurring interrogation technique of threatening someone’s ' +
+            'family became well known after his time as a senior interrogator at Guantánamo Bay from ' +
+            '2002-2004.<br/><br/>As described in Spencer Ackerman’s reporting for The Guardian, Zuley tortured ' +
+            'Mohamedou Ould Slahi into a confession, using prolonged shackling, family threats, mock ' +
+            'executions, extreme temperatures, and sleep deprivation. Zuley befriended Slahi before the ' +
+            'interrogation, and then used what he learned to threaten his mother with arrest if he did not confess.',
+            location: {
+                center: [-87.74632, 41.92242],
+                zoom: 18,
+                pitch: 60,
+                bearing: 32.0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'chicago4-slide-9',
+            alignment: 'left',
+            hidden: false,
+            title: 'Chicago',
+            image: '',
+            description: 'Back in Chicago, Zuley was assigned in 2003 to Burge\'s old position, Commander ' +
+            'of Police Unit 630 in Area 3 (within Detective Area North). After his time in Guantánamo and ' +
+            'retirement from the CPD in 2007, Zuley worked as senior emergency management coordinator for Cook ' +
+            'County Department of Health. Later, he worked for Chicago Department of Aviation as a projects ' +
+            'administrator and interim emergency management director until 2017.',
+            location: {
+                center: [-87.68969, 41.94001],
+                zoom: 16,
+                pitch: 0.50,
+                bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },   
     ]
 };
