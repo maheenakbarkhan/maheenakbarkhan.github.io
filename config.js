@@ -1,15 +1,48 @@
 var config = {
-    style: 'mapbox://styles/mapbox/streets-v11',
+    style: 'mapbox://styles/invisibleinstitute/cl078bybe000114o0cc9nqcz7',
     accessToken: 'pk.eyJ1IjoiaW52aXNpYmxlaW5zdGl0dXRlIiwiYSI6ImNrejJ6cnF5ZDAxdWIyd216cWJramZsN24ifQ.BLLN-abgTUSzlsSZixlTWA',
-    showMarkers: true,
+    showMarkers: false,
     markerColor: '#3FB1CE',
-    theme: 'light',
+    theme: 'dark',
     use3dTerrain: false,
     title: 'Chicago to Guantánamo, Connections in an Ecosystem of Violence',
     subtitle: '',
     byline: 'StoryMap by Maira Khwaja, Marie Mendoza, and Maheen Khan',
     footer: 'Source: source citations, etc.',
     chapters: [
+        {
+            id: 'intro',
+            alignment: 'left',
+            hidden: true,
+            title: 'Vietnam (1955 - 1975)',
+            image: '',
+            description: 'Jon Burge and a generation of police officers enlist in the US Military for the Vietnam War.<br/><br/> ' + 
+            'In 1968, Jon Burge volunteered for duty in the Vietnam War, where he provided security for convoys and basecamps ' + 
+            'as a military police officer, and served a tour as a provost marshal investigator. Vietnam was his second service ' + 
+            '(he had previously worked as military police in South Korea) and he was assigned to the Ninth Military ' +
+            'Police Company of the Ninth Infantry division.', 
+            location: {
+                center: [-2.72423, 23.41095],
+                zoom: 2,
+                pitch: 0,
+                bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                 {
+                     layer: 'world-coordinates',
+                     opacity: 1,
+                 }
+            ],
+            onChapterExit: [
+                 {
+                     layer: 'world-coordinates',
+                     opacity: 0
+                 }
+            ]
+        },
         {
             id: 'vietnam',
             alignment: 'left',
@@ -253,6 +286,7 @@ var config = {
             'executions, extreme temperatures, and sleep deprivation. Zuley befriended Slahi before the ' +
             'interrogation, and then used what he learned to threaten his mother with arrest if he did not confess.',
             location: {
+                //NEED TO DO ********************************
                 center: [-87.74632, 41.92242],
                 zoom: 18,
                 pitch: 60,
@@ -268,7 +302,7 @@ var config = {
             id: 'chicago4-slide-9',
             alignment: 'left',
             hidden: false,
-            title: 'Chicago',
+            title: '',
             image: '',
             description: 'Back in Chicago, Zuley was assigned in 2003 to Burge\'s old position, Commander ' +
             'of Police Unit 630 in Area 3 (within Detective Area North). After his time in Guantánamo and ' +
@@ -286,6 +320,94 @@ var config = {
             callback: '',
             onChapterEnter: [],
             onChapterExit: []
-        },   
+        },
+        {
+            id: 'zuley-pension',
+            alignment: 'right',
+            hidden: false,
+            title: '',
+            image: '',
+            description: 'At the time of this publication, Zuley collects his pension and lives in Florida.',
+            location: {
+                //NEED TO DO ********************************
+                center: [-87.68969, 41.94001],
+                zoom: 16,
+                pitch: 0.50,
+                bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'baghram-air-force',
+            alignment: 'left',
+            hidden: false,
+            title: 'Baghram Air Force',
+            image: '',
+            description: '',
+            location: {
+                //NEED TO DO ********************************
+                center: [69.25439, 34.94968],
+                zoom: 7,
+                pitch: 0.50,
+                bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'stateway-gardens-2003',
+            alignment: 'right',
+            hidden: false,
+            title: 'Stateway Gardens, 2003',
+            image: '',
+            description: 'The Skullcap Crew — composed of Edwin Utreras, Robert Stegmiller, Christ Savickas, Andrew Schoeff ' +
+            'and Joe Seinitz – joined the Chicago Police in the late 1990s and were a widely feared team of officers within ' +
+            'the Public Housing South unit. Former residents of now-demolished Stateway Gardens housing have described locking ' +
+            'their doors when the crew approached. In 2003, for example, they invaded Diane Bond’s home twice at Stateway ' +
+            'Gardens without a warrant, destroyed her altar and belongings, sexually violated her, punched her in the face, ' +
+            'and threatened her and her son.',
+            location: {
+                center: [-87.62658, 41.83102],
+                zoom: 16,
+                pitch: 00,
+                bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'alanbar-iraq',
+            alignment: 'left',
+            hidden: false,
+            title: 'Al\'Anbar, Iraq, 2007',
+            image: '',
+            description: 'Though the Skullcap Crew has been named in more than 20 federal lawsuits, all ' +
+            'members are still part of the Chicago Police Department, except for Joe Seinitz. Seinitz retired ' +
+            'in 2007 from CPD, and went on to advise the Department of Defense throughout Iraq. He proudly ' +
+            'discloses on his LinkedIn that he led the “CLEAT anti terrorism unit,” and posted photos of his ' +
+            'SWAT team that combined Iraqi and American forces to run nighttime “capture kill missions to restore ' +
+            'peace” in Al’Anbar, Iraq. Since 2016, Seinitz has described his role at the Department of Defense as “classified.”',
+            location: {
+                center: [41.60109, 32.90426],
+                zoom: 6.03,
+                pitch: 00,
+                bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
     ]
 };
