@@ -33,7 +33,7 @@ var config = {
             onChapterEnter: [
                  {
                      layer: 'world-coordinates',
-                     opacity: 1,
+                     opacity: 1
                  }
             ],
             onChapterExit: [
@@ -64,17 +64,16 @@ var config = {
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 1,
-                //     duration: 5000
-                // }
+                 {
+                     layer: 'vietnam',
+                     opacity: 1
+                 }
             ],
             onChapterExit: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 0
-                // }
+                 {
+                     layer: 'vietnam',
+                     opacity: 0
+                 }
             ]
         },
         {
@@ -95,8 +94,18 @@ var config = {
             mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
+            onChapterEnter: [
+                {
+                    layer: 'chicago',
+                    opacity: 1
+                }
+            ],
+            onChapterExit: [
+                {
+                    layer: 'chicago',
+                    opacity: 0
+                }
+            ]
         },
         {
             id: 'area2-1982',
@@ -120,8 +129,18 @@ var config = {
             mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
+            onChapterEnter: [
+                {
+                    layer: 'area2-1982',
+                    opacity: 1
+                }
+            ],
+            onChapterExit: [
+                {
+                    layer: 'area2-1982',
+                    opacity: 0
+                }
+            ]
         },
         {
             id: 'area2-1983',
@@ -148,8 +167,18 @@ var config = {
             mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
+            onChapterEnter: [
+                {
+                    layer: 'area3',
+                    opacity: 1
+                }
+            ],
+            onChapterExit: [
+                {
+                    layer: 'area3',
+                    opacity: 0
+                }
+            ]
         },
         {
             id: 'area3',
@@ -170,8 +199,18 @@ var config = {
             mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
+            onChapterEnter: [
+                {
+                    layer: 'area3',
+                    opacity: 1
+                }
+            ],
+            onChapterExit: [
+                {
+                    layer: 'area3',
+                    opacity: 0
+                }
+            ]
         },
         {
             id: 'area3-1988-1991',
@@ -193,8 +232,18 @@ var config = {
             mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
+            onChapterEnter: [
+                {
+                    layer: 'area3-1988-1991',
+                    opacity: 1
+                }
+            ],
+            onChapterExit: [
+                {
+                    layer: 'area3-1988-1991',
+                    opacity: 0
+                }
+            ]
         },
         {
             id: 'area3-1992',
@@ -220,8 +269,18 @@ var config = {
             mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
+            onChapterEnter: [
+                {
+                    layer: 'area3-1992',
+                    opacity: 1
+                }
+            ],
+            onChapterExit: [
+                {
+                    layer: 'area3-1992',
+                    opacity: 0
+                }
+            ]
         },
         {
             id: 'gulf-war-1990',
@@ -246,8 +305,18 @@ var config = {
             mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
+            onChapterEnter: [
+                {
+                    layer: 'gulf-war-1990',
+                    opacity: 1
+                }
+            ],
+            onChapterExit: [
+                {
+                    layer: 'gulf-war-1990',
+                    opacity: 0
+                }
+            ]
         },
         {
             id: 'area3again',
@@ -270,8 +339,18 @@ var config = {
             mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
+            onChapterEnter: [
+                {
+                    layer: 'area3-1992',
+                    opacity: 1
+                }
+            ],
+            onChapterExit: [
+                {
+                    layer: 'area3-1992',
+                    opacity: 0
+                }
+            ]
         },
         {
             id: 'guantanamo-2002-2004',
@@ -310,7 +389,7 @@ var config = {
             'County Department of Health. Later, he worked for Chicago Department of Aviation as a projects ' +
             'administrator and interim emergency management director until 2017.',
             location: {
-                center: [-87.68969, 41.94001],
+                center: [-87.74632, 41.92242],
                 zoom: 16,
                 pitch: 0.50,
                 bearing: 0
@@ -318,8 +397,18 @@ var config = {
             mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
+            onChapterEnter: [
+                {
+                    layer: 'area3-1992',
+                    opacity: 1
+                }
+            ],
+            onChapterExit: [
+                {
+                    layer: 'area3-1992',
+                    opacity: 0
+                }
+            ]
         },
         {
             id: 'zuley-pension',
@@ -382,8 +471,18 @@ var config = {
             mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
+            onChapterEnter: [
+                {
+                    layer: 'stateway-gardens-2003',
+                    opacity: 1
+                }
+            ],
+            onChapterExit: [
+                {
+                    layer: 'stateway-gardens-2003',
+                    opacity: 0
+                }
+            ]
         },
         {
             id: 'alanbar-iraq',
